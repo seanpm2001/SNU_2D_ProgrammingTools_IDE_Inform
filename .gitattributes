@@ -32,10 +32,43 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
-# BitBake source file
-*.bb linguist-detectable=true
-*.bb linguist-documentation=false
-*.bb linguist-language=BitBake
+# C source file
+*.c linguist-detectable=true
+*.c linguist-documentation=false
+*.c linguist-language=C
+# C header source file
+*.h linguist-detectable=true
+*.h linguist-documentation=false
+*.h linguist-language=C
+# C++ source file
+*.cpp linguist-detectable=true
+*.cpp linguist-documentation=false
+*.cpp linguist-language=C++
+*.cxx linguist-detectable=true
+*.cxx linguist-documentation=false
+*.cxx linguist-language=C++
+*.c++ linguist-detectable=true
+*.c++ linguist-documentation=false
+*.c++ linguist-language=C++
+# C++ header source file
+*.hxx linguist-detectable=true
+*.hxx linguist-documentation=false
+*.hxx linguist-language=H++
+*.h++ linguist-detectable=true
+*.h++ linguist-documentation=false
+*.h++ linguist-language=H++
+# Inform 7 source file
+*.i7x linguist-detectable=true
+*.i7x linguist-documentation=false
+*.i7x linguist-language=Inform-7
+# NSIS source file
+*.nsis linguist-detectable=true
+*.nsis linguist-documentation=false
+*.nsis linguist-language=NSIS
+# Batchfile source file
+*.bat linguist-detectable=true
+*.bat linguist-documentation=false
+*.bat linguist-language=Batchfile
 # JSON (JavaScript Object Notation) source file
 *.json linguist-detectable=false
 *.json linguist-documentation=false
@@ -154,26 +187,25 @@
 *.gif linguist-documentation=false
 *.gif linguist-language=GIF
 # Roff
-# Does not need to be discluded
-# *.0 linguist-detectable=false
-# *.0 linguist-documentation=false
-# *.0 linguist-language=Roff
-# *.1 linguist-detectable=false
-# *.1 linguist-documentation=false
-# *.1 linguist-language=Roff
-# *.2 linguist-detectable=false
-# *.2 linguist-documentation=false
-# *.2 linguist-language=Roff
-# *.3 linguist-detectable=false
-# *.3 linguist-documentation=false
-# *.3 linguist-language=Roff
-# *.roff linguist-detectable=false
-# *.roff linguist-documentation=false
-# *.roff linguist-language=Roff
+*.0 linguist-detectable=false
+*.0 linguist-documentation=false
+*.0 linguist-language=Roff
+*.1 linguist-detectable=false
+*.1 linguist-documentation=false
+*.1 linguist-language=Roff
+*.2 linguist-detectable=false
+*.2 linguist-documentation=false
+*.2 linguist-language=Roff
+*.3 linguist-detectable=false
+*.3 linguist-documentation=false
+*.3 linguist-language=Roff
+*.roff linguist-detectable=false
+*.roff linguist-documentation=false
+*.roff linguist-language=Roff
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 2 (2022, Tuesday, August 30th at 2:34 pm PST)
-# Line count (including blank lines and compiler line): 180
+# File type: gitattributes file (*.gitattributes)
+# File version: 3 (2022, Sunday, October 2nd at 6:03 pm PST)
+# Line count (including blank lines and compiler line): 212
 # End of script
